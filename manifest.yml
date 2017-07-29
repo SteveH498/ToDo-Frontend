@@ -1,0 +1,9 @@
+applications:
+- name: message-frontend
+  instances: 1
+  memory: 32M
+  buildpack: staticfile_buildpack
+  path: .\dist
+  disk_quota: 32M
+
+
